@@ -1,0 +1,5 @@
+test/
+.babelrc
+.editconfig
+.eslintrc.js
+.npmignore
