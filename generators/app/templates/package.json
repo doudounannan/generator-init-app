@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint index.js src/**/*",
+    "lint-fix": "eslint index.js src/**/* --fix",
     "pre-commit": "npm run lint"
   },
   "pre-commit": "pre-commit",
