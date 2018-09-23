@@ -1,7 +1,7 @@
 /**
  * @index.js
  *
- * @authors zhengmeiyu (zhengmeiyu@baidu.com)
+ * @authors zhengmeiyu
  * @date    2018-04-08 10:16:16
  * @version 1.0.0
  */
@@ -64,10 +64,10 @@ module.exports = class extends Generator {
     }
     writing() {
         const files = [
-            '.babelrc',
             '.editorconfig',
             '.eslintrc.js',
             'gitignore',
+            'index.js',
             'npmignore',
             'npmrc',
             'CHANGELOG.md',

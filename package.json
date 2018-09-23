@@ -1,6 +1,6 @@
 {
   "name": "generator-init-app",
-  "version": "1.0.0-alpha.1",
+  "version": "1.0.2",
   "keywords": [
     "应用初始化生成器"
   ],
@@ -10,22 +10,19 @@
   ],
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "eslint generators/app/index.js",
-    "pub": "npm publish --registy=https://registry.npmjs.org"
+    "lint": "eslint generators/app/index.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/doudounannan/generator-init-app.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "木木",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/doudounannan/generator-init-app/issues"
   },
   "homepage": "https://github.com/doudounannan/generator-init-app#readme",
   "dependencies": {
-    "chalk": "^2.3.0",
     "lodash": "^4.17.4",
     "moment": "^2.20.1",
     "yeoman-generator": "^2.0.2",
